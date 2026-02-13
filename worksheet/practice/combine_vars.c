@@ -18,5 +18,10 @@ int main( void ) {
     // compute and print f-d as a float to 16 d.p.
     // compute and print k+d as a double to 16 d.p.
 
+    printf("%.16f\n", d / k);
+    printf("%.16f\n", f - d);
+    printf("%.16f\n", (float)(f - d));
+    printf("%.16f\n", k + d);
+
     return 0;
 }
