@@ -31,10 +31,10 @@ int main( void ) {
    take_home_salary = remaining_salary - tax_contribution;
 
    // Use only these print statement with appropriate formatting and variable names
-   printf("Salary £... %.2f\n", salary);
-   printf("NI contribution £... %.2f\n", NI_contribution);
-   printf("Tax contribution £... %.2f\n", tax_contribution);
-   printf("Take home salary £... %.2f\n", take_home_salary);
+   printf("Salary £%.2f\n", salary);
+   printf("NI contribution £%.2f\n", NI_contribution);
+   printf("Tax contribution £%.2f\n", tax_contribution);
+   printf("Take home salary £%.2f\n", take_home_salary);
 
    return 0;
 }
